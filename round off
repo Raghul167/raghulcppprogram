@@ -1,0 +1,12 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    float a;
+    cin>>a;
+    cout<<(int)a<<endl;
+    printf("%.1f",ceil(a));
+    printf("\n%.1f",floor(a));
+    return 0;
+}
