@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    float w,x,y,z;
+    cin>>a>>b>>c;
+    w=(a*b*c)/100;
+    x=(a+w);
+    y=(2*w)/100;
+    z=x-y;
+    cout<<w<<endl;
+    cout<<x<<endl;
+    cout<<y<<endl;
+    cout<<z<<endl;
+}
