@@ -1,0 +1,16 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    float a,b,v,t,d,s;
+    cin>>a>>b>>v;
+    printf("%.2f",a+b);
+    t=a*v/100;
+    d=b*v/100;
+    printf("\n%.2f",(a+b)-(t+d));
+    printf("\n%.2f",t+d);
+   
+    
+    return 0;
+}
