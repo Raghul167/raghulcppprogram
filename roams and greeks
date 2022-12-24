@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,l,x,y;
+    cin>>x>>l>>y>>l;
+    a=(x+(x+l))/2;
+    b=(y+(y+l))/2;
+    
+    cout<<b;
+    cout<<a<<endl;
+}
