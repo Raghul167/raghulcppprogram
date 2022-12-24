@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   int w,x,y,r,t,z;
+   cin>>w>>x>>y;
+   r=w*x;
+   t=w*y;
+   z=(r-t)-100;
+   cout<<z;
+    return 0;
+}
