@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,n,r;
+    cin>>a>>b;
+    n=a/b;
+    cout<<n<<endl;
+    r=a%b;
+    cout<<r<<endl;
+    return 0;
+}
