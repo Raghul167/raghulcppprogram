@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,s,d;
+    cin>>a>>s;
+    if(s>=3)
+    {
+        cout<<"Invalid input";
+    }
+    cin>>d;
+    switch(s)
+    { 
+        case 1:
+        {
+            cout<<a+d;
+            break;
+        }
+        case 2:
+        {
+            if(a<d)
+            {
+                cout<<"Insufficient Balance";
+            }
+        }
+    }
+}
