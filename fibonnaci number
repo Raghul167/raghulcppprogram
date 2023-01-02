@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,sum=0,n1=1,n2=1,i;
+    cin>>n;
+    for(i=1;i<100;i++)
+    {
+       sum=n1+n2;
+    if(n==sum)
+    {
+        break;
+    }
+      n1=n2;
+      n2=sum;
+    }
+    if(n==sum)
+    {
+     cout<<"Fibonacci number";
+    }
+    else
+    {
+        cout<<"Not Fibonacci Number";
+    }
+     
+
+    
+    return 0;
+}
