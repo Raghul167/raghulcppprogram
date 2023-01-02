@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Enter the number of Months :"<<endl;
+    int n=0,n1=1,n2=1,n3,sum;
+    cin>>n;
+    for(int i=0;i<n-3;i++)
+    {
+        n3=n1+n2;
+        n1=n2;
+        n2=n3;
+        
+    }cout<<"The amoeba size is "<<n3;
+}
