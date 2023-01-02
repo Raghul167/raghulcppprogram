@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int year,a,b,c,d;
+    cin>>year;
+    a=year/365;
+    cout<<a<<endl;
+    b=year%365;
+    c=b/7;
+    cout<<c<<endl;
+    d=b%7;
+    cout<<d<<endl;
+    return 0;
+}
