@@ -1,0 +1,24 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    if(a<=200)
+    {
+        cout<<"Rs."<<(int)ceil((a*.5));
+    }
+    else if(a<=400)
+    {
+        cout<<"Rs."<<(int)ceil((a*0.65)+100);
+    }
+    else if(a<=600)
+    {
+        cout<<"Rs."<<(int)ceil((a*0.80)+200);
+    }
+    else
+    {
+        cout<<"Rs."<<(int)ceil((a*1.25)+425);
+    }
+}
