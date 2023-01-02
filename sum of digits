@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int fact(int n)
+{
+    int sum=0;
+    int add=0;
+    for(int i=0;i<n+2;i++)
+    {
+   
+        sum=n%10;//2/1
+        add=add+sum;//2/3
+        n=n/10;//11/1
+    }
+    return(add);
+    
+}
+int main()
+{
+    int n;
+    cin>>n;
+    cout<<fact(n);
+}
