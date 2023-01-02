@@ -1,0 +1,35 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int n,sum=0,add=1,ans=0,s,r,su=0,t;
+    cin>>n;
+    s=n;
+    t=n;
+    do
+    {
+        su=n%10;
+        n=n/10;
+        r++;
+    }
+    while(n!=0);//cout<<r;
+    do
+    {
+        sum=s%10;
+        add=pow(sum,r);
+        ans=ans+add;
+        s=s/10;
+    }
+    while(n!=0);
+    if(ans==t)
+    {
+    cout<<"Armstrong Number";
+        
+    }
+    else
+    {
+    cout<<"Not an Armstrong Number";
+    }
+   // cout<<ans;
+}
