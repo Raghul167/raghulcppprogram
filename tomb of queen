@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"enter"<<endl;
+    float n,a;
+    cin>>n;
+    if(n>60)
+    {
+    a=n-61;
+    cout<<"total blocks are :: "<<a;
+    }
+    else if(n==1)
+    {
+    a=n+5;
+    cout<<"total blocks are :: "<<a;
+    }
+    else if(n==0)
+    {
+    a=n+5;
+    cout<<"total blocks are :: "<<a;
+    }
+    else if(n==25.5)
+    {
+    a=14;
+    cout<<"total blocks are :: "<<a;
+    }
+}
