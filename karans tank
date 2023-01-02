@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int r,h,c,a,b;
+    float t;
+    cin>>r>>h>>c>>t;
+    a=2*3.14*r*h;
+    b=t/a;
+    if(b<=t)
+    {
+        printf("The tank can be filled within %.1f hours",t);
+    }
+}
