@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int year,day,month,a;
+    cin>>year>>day>>month;
+    a=day*month;
+    if(a==year)
+    {
+        cout<<"its magic year "<<year;
+    }
+    else
+    {
+        cout<<"its not magic year ";
+    }
+}
