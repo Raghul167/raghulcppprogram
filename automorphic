@@ -1,0 +1,26 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a;
+    b=pow(a,a);
+    c=b%10;
+    if(a<25)
+    {
+    if(c==a)
+    {
+        cout<<"Automorphic Number";
+    }
+    else
+    {
+        cout<<"Not Automorphic Number";
+    }
+    }
+    else
+    {
+        cout<<"Invalid input";
+    }
+    return 0;
+}
