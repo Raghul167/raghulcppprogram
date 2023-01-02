@@ -1,0 +1,57 @@
+#include<iostream>
+using namespace std;
+int main()
+    {
+       cout<<"Enter the student type"<<endl;
+       string str;
+       float tution,bus,hostel,a,b,c,d,e,f;
+       cin>>str;
+       if(str=="MSDS")
+       {
+           cout<<"Enter tuition fee"<<endl;
+           cin>>tution;
+           cout<<"Enter bus fee"<<endl;
+           cin>>bus;
+           a=tution+bus;
+           cout<<"The fees to be paid by the student is Rs.";
+           printf("%.2f",a);
+           
+       }
+       else if(str=="MSH")
+       {
+           cout<<"Enter tuition fee"<<endl;
+           cin>>tution;
+           cout<<"Enter hostel fee"<<endl;
+           cin>>hostel;
+           b=tution+hostel;
+           cout<<"The fees to be paid by the student is Rs.";
+           printf("%.2f",b);
+          
+       }
+        else if(str=="MGSDS")
+       {
+           cout<<"Enter tuition fee"<<endl;
+           cin>>tution;
+           cout<<"Enter bus fee"<<endl;
+           cin>>bus;
+           c=tution/2;
+           d=tution+bus+c;
+           cout<<"The fees to be paid by the student is Rs.";
+           printf("%.2f",d);
+       }
+    else if(str=="MGSH")
+       {
+           cout<<"Enter tuition fee"<<endl;
+           cin>>tution;
+           cout<<"Enter hostel fee"<<endl;
+           cin>>hostel;
+           e=tution/2;
+           f=tution+hostel+e;
+           cout<<"The fees to be paid by the student is Rs.";
+           printf("%.2f",f);
+       }
+       else
+       {
+           cout<<"Invalid Input..";
+       }
+    }
