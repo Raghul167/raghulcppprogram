@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a1,b1,c1,a2,b2,c2,a3,b3,c3,f,a,s,f1,s1,A1;
+    cin>>a1>>b1>>c1>>a2>>b2>>c2>>a3>>b3>>c3;
+    f=((a1*b1)/100);
+    s=((a2*b2)/100);
+    a=((a3*b3)/100);
+    f1=(a1-f)+c1;
+    s1=(a2-s)+c2;
+    A1=(a3-a)+c3;
+    cout<<"In Flipkart Rs."<<f1<<endl;
+    cout<<"In Snapdeal Rs."<<s1<<endl;
+    cout<<"In Amazon Rs."<<A1<<endl;
+    if(f1<A1 && f1<s1)
+    {
+        cout<<"He will prefer Flipkart";
+    }
+    else if(s1<A1)
+    {
+        cout<<"He will prefer Snapdeal";
+        
+    }
+    else
+    {
+        cout<<"He will prefer Amazon";
+    }
+    return 0;
+}
