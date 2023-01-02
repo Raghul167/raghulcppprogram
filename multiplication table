@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n1,n2,s,i;
+    cin>>n1>>n2;
+    for(i=1;i<=n2;i++)
+    {
+    s=n1*i;
+    cout<<n1<<'*'<<i<<'='<<s<<endl;
+    }
+    
+    return 0;
+}
