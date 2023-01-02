@@ -1,0 +1,63 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter the number";
+    cin>>n;
+    if(n=3)
+    {
+        cout<<"*      "<<endl;
+        cout<<"  * * *  "<<endl;
+        cout<<"   *   "<<endl;
+        cout<<"  * * *   "<<endl;
+        cout<<" * * * * *   "<<endl;
+        cout<<"   *   "<<endl;
+        cout<<"  * * *  "<<endl;
+        cout<<" * * * * *  "<<endl;
+        cout<<"* * * * * * * "<<endl;
+        cout<<"     |  |"<<endl;
+        cout<<"     |  |";
+        
+    }
+}
+/* #include<iostream>
+using namespace std;
+int main()
+{
+    int n, i,j,k;
+    cin>>n;
+    
+    for(i=1;i<n;i++)
+    {
+        for(j=i;j<n;j++)
+        {
+            cout<<" ";
+        }
+        for(j=0;j<i-1;j++)
+        {
+            cout<<"*";
+        }
+        for(j=1;j<i-1;j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    for(i=1;i<n;i++)
+    {
+        for(j=i;j<n;j++)
+        {
+            cout<<" ";
+        }
+        for(j=0;j<i;j++)
+        {
+            cout<<"*";
+        }
+        for(j=1;j<i;j++)
+        {
+            cout<<"*";
+        }cout<<endl;
+    }
+    cout<<"   | |   ";
+}*/
