@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    string str;
+    int n;
+    cin>>str;
+    cin>>n;
+    if(str=="front"&& n==1)
+    {
+        cout<<"Left Handed";
+    }
+    if(str=="front"&& n==2)
+    {
+        cout<<"Right Handed";
+    }
+    else if(str=="rear" && n==2)
+    {
+        cout<<"Left Handed";
+    }
+    else if(str=="rear" && n==1)
+    {
+        cout<<"Right Handed";
+    }
+}
