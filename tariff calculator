@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,days;
+    float rent,a,b,ans;
+    cin>>n;
+    cin>>rent;
+    cin>>days;
+    if(n==4 || n==5 ||n==6 ||n==11 ||n==12)
+    {
+        b=rent*20/100;
+        ans=(rent+b)*days;
+        cout<<"Hotel Tariff: Rs.";
+        printf("%.2f",ans);
+    }
+    else if(n>12)
+    {
+        cout<<"Invalid Input";
+    }
+    else
+    {
+        a=rent*days;
+        cout<<"Hotel Tariff: Rs.";
+        printf("%.2f",a);
+    }
+}
