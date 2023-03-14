@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int tim,hour,min;
+    string a="AM";
+    cin>>tim;
+    hour=tim/100;
+    min=tim%100;
+    if(hour==0)
+    {
+        hour=12;
+        
+    }
+    else if(hour==12)
+    {
+        a[0]='p';
+    }
+    else if(hour>12)
+    {
+        hour=hour-12;
+        a="PM";
+    }
+    cout<<hour<<":"<<min<<" "<<a;
+    
+}
